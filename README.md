@@ -1,10 +1,14 @@
 # Cat-GAN \U0001F431\U0001F3A8
+[food-GAN Sample](gan_samples/food-gan-101.png)
+[mnist-GAN Sample](gan_samples/gan-mnist-3500.png)
+[Cat-GAN Sample](gan_samples/cat-gan-12250.png)
 
-This repository contains the codebase for generating cat images using Generative Adversarial Networks (GANs). It was developed as part of an assignment for **CS 444** at **UIUC**, taught by **Prof. Svetlana Lazebnik**.
+
+This repository contains the codebase for generating cat images using Generative Adversarial Networks (GANs). It was done as part of an assignment for **CS 444** at **UIUC**, taught by **Prof. Svetlana Lazebnik**.
 
 ## Repository Structure
 
-### `gan/` - Core GAN Implementation
+### `gan/`
 - **`losses.py`** – Implements three different GAN loss functions:
   - Classical GAN Loss
   - Least-Squares Loss (LSGAN)
@@ -13,11 +17,11 @@ This repository contains the codebase for generating cat images using Generative
 - **`train.py`** – Contains the main training loop for training the GAN model.
 - **`utils.py`** – Includes preprocessing utilities and helper functions.
 
-### `gan_mnist/` - Debugging & MNIST Example
+### `gan_mnist/`
 This directory contains scripts for training a GAN on the **MNIST dataset**, primarily used for debugging and experimentation.
 
-### `gan_train/` - Different GAN Variants
-This folder contains trained models for different variations of Cat-GAN:
+### `gan_train/`
+This folder contains training scripts:
 - **`cat_gan/`** – Standard Cat-GAN (using Classical GAN Loss).
 - **`least-squared-cat-gan/`** – Cat-GAN trained with **Least-Squares Loss (LSGAN)**.
 - **`wasserstein-cat-gan/`** – Cat-GAN trained with **Wasserstein Loss (WGAN)**.
