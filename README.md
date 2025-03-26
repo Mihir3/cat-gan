@@ -1,8 +1,8 @@
 # cat-gan 
 <p align='center'>
-<img src="https://github.com/Mihir3/cat-gan/blob/main/gan_samples/gan-mnist-3500.png" width="200">
-<img src="https://github.com/Mihir3/cat-gan/blob/main/gan_samples/food-gan-101.png" width="200">
-<img src="https://github.com/Mihir3/cat-gan/blob/main/gan_samples/cat-gan-12250.png" width="200">
+<img src="https://github.com/Mihir3/cat-gan/blob/main/gan_samples/gan-mnist-3500.png" width="32%">
+<img src="https://github.com/Mihir3/cat-gan/blob/main/gan_samples/food-gan-101.png" width="32%">
+<img src="https://github.com/Mihir3/cat-gan/blob/main/gan_samples/cat-gan-12250.png" width="32%">
 </p>
 
 This repository contains the codebase for generating cat images using Generative Adversarial Networks (GANs). It was done as part of an assignment for **CS 444** at **UIUC**, taught by **Prof. Svetlana Lazebnik**.
